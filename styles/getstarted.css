@@ -1,0 +1,35 @@
+.logo{
+    max-height: 50px;
+    max-width: 50px;
+    display: flex;
+    float: left;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #696773;
+    justify-content: left;
+}
+
+nav a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav a:hover
+{
+    background-color: #363946;
+    color: white;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #363946;
+}
