@@ -1,3 +1,4 @@
+
 .logo{
     max-height: 50px;
     max-width: 50px;
@@ -32,4 +33,74 @@ nav a:hover
 body{
     margin: 0 auto;
     background-color: #363946;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+}
+
+.map{
+    max-width: 100%;
+    grid-column: 2/3;
+    grid-row:2/3;
+    margin-top: 10px;
+}
+
+.texting{
+    max-width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 10px;
+}
+
+.firstp{
+    font-size: x-large;
+    color: white;
+    padding-right: 20px;
+}
+
+.secondp{
+    font-size: x-large;
+    color: white;
+    padding-right: 20px;
+}
+
+footer
+{
+    background-color: #696773;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p
+{
+    font-size: 1.2em;
+    color: white;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+footer p:hover
+{
+    text-decoration: underline;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+.social img
+{
+    width: 50px;
+    padding-top: 15px;
 }
